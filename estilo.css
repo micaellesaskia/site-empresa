@@ -1,0 +1,251 @@
+*{
+padding: 0px;
+margin: 0px;
+
+box-sizing: border-box;
+}
+
+.logo > img{
+	width: 150px;
+	margin: 0px;
+
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.menu{
+
+	background-color: #feca57;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+}
+
+nav > div{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+nav > div > a{
+	text-decoration: none;
+	font-size: x-large;
+	color: #f5f6fa;
+}
+
+nav > div > a:hover{
+	color: #009432;
+}
+
+.banner{
+	width: 100%;
+	height: 750px;
+}
+
+.banner > img{
+	width: 100%;
+	max-height: 750px;
+}
+
+.slogan{
+	font-size: 30px;
+	color: #009432;
+
+	position: absolute;
+	top: 25%;
+	text-align: center;
+}
+
+.Hambúrgueres{
+	background-color: #009432;
+	top: 0px;
+	padding: 10px;
+}
+
+.sabor{
+	min-height: 300px;
+	min-width: 250px;
+	padding: 15px;
+}
+
+.sobre{
+	padding: 30px;
+	background-color: #f6e58d;
+}
+
+center > h1{
+	color: #f9ca24;
+	font-size: 35px;
+}
+
+center > div{
+	color: #eccc68;
+}
+.s01{
+	background-image: url("../imagens/outback.jpg") ;
+}
+.s02{
+	background-image: url("../imagens/caseiro.jpg") ;
+}
+.s03{
+	background-image: url("../imagens/vegano.jpg") ;
+}
+.s04{
+	background-image: url("../imagens/vegetal.jpg") ;
+}
+.s05{
+	background-image: url("../imagens/gourmet.jpg") ;
+}
+.s06{
+	background-image: url("../imagens/artesanal.jpg") ;
+}
+.s07{
+	background-image: url("../imagens/minihamburguer.jpg") ;
+}
+.s08{
+	background-image: url("../imagens/americano.jpg") ;
+}
+
+.saborRows{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.s01, .s08{
+	flex: 4;
+}
+.s02, .s03, .s04,.s05, .s06, .s07, .missao, .visao,.valores{
+	flex: 3;
+}
+
+.s01, .s02, .s03, .s04,.s05, .s06, .s07, .s08{
+	/*border: 1px solid blue;*/
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	/*background-size: contain;*/ background-size: 100% 100%;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+	font-size: large;
+	font-weight: bolder;
+	margin: 10px;
+
+	color: #f9ca24;
+}
+
+.descricao{
+	text-align: center;
+	font-size: 20px;
+}
+
+.descricao > h2{
+	color: #009432;
+	margin: 10px;
+}
+
+.descricao > h4{
+	color: #ffa502;
+	margin: 10px;
+}
+
+.descricao > div{
+	margin: 10px;
+}
+
+.missaoVisaoValores{
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+	align-items: center;
+
+	padding: 20px;
+}
+
+.missao, .visao,.valores{
+	padding: 10px;
+	min-width: 300px;
+	height: 200px;
+
+	text-align: center;
+	font-size: 20px;
+}
+
+.missao > h2, .visao > h2,.valores> h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #009432;
+}
+
+hr{
+	width: 15%;
+	margin: auto;
+
+	margin-bottom: 15px;
+	height: 2px;
+
+	background-color: #747d8c;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	padding: 10px;
+
+	font-size: 20px;
+}
+
+.rodape > .col-1, .rodape > .col-2, .rodape > .col-3{
+	flex: 1;
+
+	min-width: 300px;
+
+	height: 350px;
+	text-align: center;
+}
+
+.rodape > .col-1 > img, .rodape > .col-1 > p, .rodape > .col-2 > p{
+	margin-bottom: 15px;
+}
+
+.rodape > .col-2 > h2{
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.subRodape{
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	align-items: center;
+
+	height: 40px;
+
+	background-color: #2d3436;
+	color: #ecf0f1;
+
+	font-size: 18px;
+}
+
+.subRodape > .col-2 > a{
+	text-decoration: none;
+	margin: 5px;
+	color: #ecf0f1;
+}
